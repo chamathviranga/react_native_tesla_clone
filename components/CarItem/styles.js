@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   carContainer: {
     width: '100%',
     height: '100%',
@@ -17,16 +17,28 @@ const style = StyleSheet.create({
     fontWeight: '500',
   },
 
+  subtitleCTA: {
+    textDecorationLine: 'underline'
+  },
+
   subtitle: {
     fontSize: 16,
     color: '#5c5e62'
   },
+
   image: {
     width: '100%',
     height: '100%',
     resizeMode: 'cover',
     position: 'absolute'
-  }
+  },
+
+  buttonContainer: {
+    position: 'absolute',
+    bottom: 50,
+    width: '100%',
+  },
+  
 });
 
-export default style;
+export default styles;
